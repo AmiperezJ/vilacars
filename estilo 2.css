@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.motorcycle-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.motorcycle-table th,
+.motorcycle-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.motorcycle-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.motorcycle-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.motorcycle-table tr:hover {
+    background-color: #e6f7ff;
+}
